@@ -17,7 +17,7 @@ const Lead = (props) => {
         <div>
             <div className="lead-card">
                 <div className="image-container">
-                    <img src={img} />
+                    <img src={img} alt={name} />
                 </div>
 
                 <div className="info-container">
@@ -27,12 +27,12 @@ const Lead = (props) => {
                     <p>Net Worth: ${net_worth} billion</p>
                     <p>Website: <a href={website}>Click Here</a></p>
                         <div className="button-container">
-                            <button className="button-style" onClick={() => props.handleListener(name, net_worth)}><i class="fa-solid fa-check"></i>Add</button>
+                            <button className="button-style" onClick={() => props.handleListener(name, net_worth)}><i className="fa-solid fa-check"></i>Add</button>
                         </div>
 
                     <div className="icon-social">
-                    <i class="fa-brands fa-facebook-square"></i>
-                    <i class="fa-brands fa-youtube"></i>
+                    <i className="fa-brands fa-facebook-square"></i>
+                    <i className="fa-brands fa-youtube"></i>
                     </div>
                 </div>
             </div>
