@@ -4,11 +4,6 @@ import './Lead.css';
 const Lead = (props) => {
     const {img, name, age, died, birth_place, net_worth, website} = props.lead;
 
-    let netWorth = net_worth;
-    if (net_worth == 'Unknown') {
-        netWorth = '$0 billion';
-    }
-
     let isDead = false; 
     if (died) {
         isDead = '(Died)';
@@ -29,10 +24,10 @@ const Lead = (props) => {
                     <p>Name: {name}</p>
                     <p>Age: {age} {isDead}</p>
                     <p>Birth Place: {birth_place}</p>
-                    <p>Net Worth: {net_worth}</p>
+                    <p>Net Worth: ${net_worth} billion</p>
                     <p>Website: <a href={website}>Click Here</a></p>
                         <div className="button-container">
-                            <button className="button-style" onClick={() => props.handleListener(name, netWorth)}><i class="fa-solid fa-check"></i>Add</button>
+                            <button className="button-style" onClick={() => props.handleListener(name, net_worth)}><i class="fa-solid fa-check"></i>Add</button>
                         </div>
 
                     <div className="icon-social">

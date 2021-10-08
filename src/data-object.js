@@ -8,7 +8,7 @@ const data = [
         birth_place: 'Dunfermline, Scotland',
         industry: 'Steel Manufacturing',
         influence: 'Pioneered many manufacturing process',
-        net_worth: '$380 million',
+        net_worth: 0.38,
         website: 'https://www.carnegie.org/interactives/foundersstory/#!/'
     },
 
@@ -21,7 +21,7 @@ const data = [
         birth_place: 'San Francisco, California, USA',
         industry: 'Computer Technology, Computer Science',
         influence: 'Advancement in Computers and Media Devices',
-        net_worth: '$6.1 billion',
+        net_worth: 6.1,
         website: 'https://www.apple.com/'
     },
 
@@ -34,7 +34,7 @@ const data = [
         birth_place: 'Greenfield Township, Dearborn, Michigan, USA',
         industry: 'Auto-motive manufacturer',
         influence: 'Modern Transport Pioneer',
-        net_worth: '$1.1 billion',
+        net_worth: 1.1,
         website: 'http://www.thomasedison.com/'
     },
 
@@ -46,7 +46,7 @@ const data = [
         birth_place: 'White Plains, New York, USA',
         industry: 'Social Media Mogul',
         influence: 'Revolutionized Online Social Media and Networking',
-        net_worth: '$68 billion',
+        net_worth: 68,
         website: 'https://www.facebook.com/'
     },
     
@@ -58,7 +58,7 @@ const data = [
         birth_place: 'Albuquerque, New Mexico, USA',
         industry: 'Online Retail',
         influence: 'Revolutionized E-Commerce',
-        net_worth: '$117.2 billion',
+        net_worth: 117.2,
         website: 'http://www.amazon.com/'
     },
 
@@ -70,7 +70,7 @@ const data = [
         birth_place: 'Seattle, Washington, USA',
         industry: 'Information Technology, Computer Science',
         influence: 'Changed the Personal Computer Forever',
-        net_worth: '$98 billion',
+        net_worth: 98,
         website: 'https://www.gatesfoundation.org/'
     },
 
@@ -82,7 +82,7 @@ const data = [
         birth_place: 'East Lansing, Michigan, USA',
         industry: 'I.T entrepreneur, Computer Science',
         influence: 'Revolutionized Online Searching and Media',
-        net_worth: '$58.3 billion',
+        net_worth: 58.3,
         website: 'https://en.wikipedia.org/wiki/Larry_Page'
     },
 
@@ -94,7 +94,7 @@ const data = [
         birth_place: 'Moscow, Russia',
         industry: 'I.T , Computer Science',
         influence: 'Revolutionized Online Searching and Media',
-        net_worth: '$56.2 billion',
+        net_worth: 56.2,
         website: 'https://en.wikipedia.org/wiki/Sergey_Brin'
     },
 
@@ -106,7 +106,7 @@ const data = [
         birth_place: 'Blackheath, London, England, UK',
         industry: 'British industrialist',
         influence: 'Music, Travel, Charity',
-        net_worth: '$4.4 billion',
+        net_worth: 4.4,
         website: 'http://www.virgin.co.uk/'
     },
     
@@ -119,7 +119,7 @@ const data = [
         birth_place: 'Milan, Ohio, USA',
         industry: 'Science',
         influence: 'His Inventions Changed the World',
-        net_worth: '$12 million',
+        net_worth: 0.012,
         website: 'https://www.thomasedison.com/'
     },
 
@@ -131,7 +131,7 @@ const data = [
         birth_place: 'Athens, Greece',
         industry: 'Blogging Columnist and Author',
         influence: 'A Pioneer in Blogging and Online News',
-        net_worth: '$60 million',
+        net_worth: 0.06,
         website: 'https://www.huffingtonpost.com/'
     },
 
@@ -144,7 +144,7 @@ const data = [
         birth_place: 'Birmingham, West Midlands UK',
         industry: 'Entrepreneurial Manufacturer',
         influence: 'Pioneered many manufacturing processes',
-        net_worth: 'Unknown',
+        net_worth: 0.1,
         website: 'https://en.wikipedia.org/wiki/Matthew_Boulton'
     },
 
@@ -156,7 +156,7 @@ const data = [
         birth_place: 'Maidenhead, Berks, United Kingdom',
         industry: 'Telecommunications',
         influence: 'Investing in young entrepreneurs',
-        net_worth: '$550 million',
+        net_worth: 0.55,
         website: 'http://www.peterjones.tv/'
     },
     
@@ -168,7 +168,7 @@ const data = [
         birth_place: 'Zimbabwe',
         industry: 'Recruitment',
         influence: 'Creating Employment Opportunities',
-        net_worth: '$350 million',
+        net_worth: 0.35,
         website: 'http://www.a24group.com/'
     },
 
@@ -181,7 +181,7 @@ const data = [
         birth_place: 'Osceola, Kansas, USA',
         industry: 'Hotelier',
         influence: 'Pioneered Hotel Industry',
-        net_worth: '$100 million',
+        net_worth: 0.1,
         website: 'https://www.ihg.com/holidayinn/hotels/gb/en/reservation'
     }
 ]
