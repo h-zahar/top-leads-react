@@ -1,0 +1,6 @@
+.lead-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 62px;
+    gap: 30px;
+}

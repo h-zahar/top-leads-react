@@ -1,0 +1,76 @@
+.lead-card {
+    width: 300px;
+    height: 575px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px black;
+    transition: all 0.1s;
+}
+
+.lead-card:hover {
+    transform: translate(5px, -5px);
+    transition: all 0.3s;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+
+.lead-card .image-container img {
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+    margin: 25px 0 20px 0;
+}
+
+.info-container {
+    margin: 0 30px;
+}
+
+.info-container p {
+    margin-top: 4px;
+    margin-bottom: 20px;
+}
+
+.info-container p a {
+    text-decoration: none;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.button-style {
+    margin-top: 15px;
+    padding: 10px 25px 10px 20px;
+    border: none;
+    background-color: rgba(144, 130, 202, 0.493);
+    box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.3), -1px 0px 5px rgba(0, 0, 0, 0.3), 0px -1px 5px rgba(0, 0, 0, 0.3), 0px 1px 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: all 0.1s;
+}
+
+.button-style i {
+    margin-right: 5px;
+}
+
+.button-style:hover {
+    transform: rotate(-15deg);
+    transition: all .5s;
+}
+
+.icon-social{
+    display: flex;
+    justify-content: center;
+
+    font-size: 2em;
+    opacity: 0.7;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.icon-social i {
+    margin-left: 10px;
+    margin-right: 10px;
+}
